@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.tab {
+	border: 1px solid black ;
+	background: #D9E5FF;
+}
+
+td, tr {
+	border: 1px solid black;
+}
+
+.col1 {
+	 text-align: center;
+}

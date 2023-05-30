@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex18_js.html</title>
+</head>
+
+
+
+
+
+
+
+<body>
+	<span>0</span>번 클릭&nbsp;&nbsp;
+	<input type="button" value="Click"><hr>
+</body>
+</html>

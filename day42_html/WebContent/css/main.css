@@ -1,0 +1,19 @@
+@charset "UTF-8";
+table.tab {
+	border: 1px solid black ;
+	background: #D9E5FF;
+}
+
+td, tr {
+	border: 1px solid black;
+}
+
+td.col1 {
+	 text-align: center;
+}
+
+span.star {
+	color: red;
+	vertical-align: super;
+    font-size: smaller;
+}

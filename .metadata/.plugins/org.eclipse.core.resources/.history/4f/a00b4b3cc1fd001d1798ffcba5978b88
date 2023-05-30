@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex17_js.html</title>
+
+<style type="text/css">
+p { background-color: skyblue; }
+</style>
+
+<script type="text/javascript">
+	function hello() {
+		alert('안녕... 재미있습니다.');
+	}
+	
+	document.write('doyeon');
+	document.write('<h1><font color="blue">DaeBo</font></h1>');
+	
+	</script>
+</head>
+<body onload="hello()">
+<!-- <body onload="javascript:alert('재미있습니다.')"> -->
+<p> 브라우저에서 출력된 것입니다.</p>
+
+<!-- <p onclick="javascript:alert('궁금한가요??')"
+style="background-color:pink"> 브라우저에서 출력된 것입니다.</p> -->
+
+</body>
+</html>

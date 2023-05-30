@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex17_js.html</title>
+</head>
+<body onload="javascript:alert('재미있습니다.')">
+<p> 브라우저에서 출력된 것입니다.</p>
+
+
+</body>
+</html>

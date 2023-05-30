@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex15_transform.html</title>
+
+<style type="text/css">
+	.myphoto {
+		position: absolute;
+		left: 50px;
+		top: 70px;
+		transform: rotate(15deg); /* 표준만 써도 된다 */
+			-webkit-transform: rotate(15deg);
+			-moz-transform: rotate(15deg);
+			-ms-transform: rotate(15deg); /* 브라우저별 적용시키기 위함. <-생략가능 */
+}
+</style>
+</head>
+<body>
+	<img class="myphoto"alt="그림입니다"src="../images/1.jpg">
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* main.js
+표기법  - 4가지
+  camelCase  : getName, thisIsMyFunction(),...
+  PascalCase  : GetName, ThisIsMyFunction(),...
+  snakeCase  :  get_name, this_is_my_function(),....
+  kebabCase :  get-name, this-is-my-function(),....
+ - 참고 : https://forgiveall.tistory.com/563
+ 
+Zero-based Numbering : 0 기반 번호 매기기!
+*/
+// var vs let vs counst 
+
+let fruits = ['Apple', 'Banana', 'Cherry'];
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);

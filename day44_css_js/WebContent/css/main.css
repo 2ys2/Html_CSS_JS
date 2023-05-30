@@ -1,0 +1,25 @@
+@charset "UTF-8";
+div { /* 1점 */
+/* 	color: red !important; */ /* 무한대 */
+	border: 3px solid;
+	width: 100px;
+	height: 100px;
+	background-image:
+	url('https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=13302425&filePath=L2Rpc2sxL25ld2RhdGEvMjAyMi8yMS9DTFMxMDAwNi8xMzMwMjQyNV9XUlRfMjFfQ0xTMTAwMDZfMjAyMjAyMDdfMQ==&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10006');
+	/* url('../images/2.jpg'); */
+}
+
+#color_yellow { color: yellow; } /* 100점 */
+.color_green { color: green; } /* 10점 */
+
+* { color: darkblue; } /* 0점 */
+
+/*
+.list li.item{ } 클래스 + 태그 + 클래스 = 10 + 1 + 10 = 21 
+.list li:hover{ } 클래스 + 태그 + 클래스 = 10 + 1 + 10 = 21 점
+.box::before{ } 클래스 + 태그 = 10 + 1 = 11 점
+#submit span{ } id + 태그 = 100 + 1 = 101 점
+header .menu li:nth-child(2){ } 태그 + 클래스 + 태그 + 클래스 = 1 + 10 + 1 + 10 = 22 점
+hi{ } 태그 = 1 점
+:not(.box){ }  부정 + 클래스 = 0 + 10 = 10 점
+*/

@@ -1,0 +1,12 @@
+body {background-color: rgb(213, 213, 250)}
+        #tab {
+        width: 650px;
+        height: 30px;
+        text-align: center;
+        border-color: palegoldenrod;
+        border-collapse: collapse;
+        }
+        
+        .tab, tr, td {
+            border: 3px dashed plum;
+        }

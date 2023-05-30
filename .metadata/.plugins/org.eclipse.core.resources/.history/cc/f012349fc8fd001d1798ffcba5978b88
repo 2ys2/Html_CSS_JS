@@ -1,0 +1,10 @@
+@charset "UTF-8";
+div { /* 1점 */
+/* 	color: red !important; */ /* 무한대 */
+	border: 3px solid;
+	width: 100px;
+	height: 100px;
+}
+
+#color_yellow { color: yellow; } /* 100점 */
+.color_green { color: green; } /* 10점 */

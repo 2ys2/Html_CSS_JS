@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	transition: 1s;
+	
+}
+.box:focus{
+	width: 300px;
+	background-color: royalblue;
+}
+
+input:focus {
+	background-color: yellow;
+}
+
+/* .fruits span:first-child {
+	color: red;
+}
+.fruits h3:last-child {
+	color: blue;
+} 
+.fruits *:nth-child(2) {
+	color: royalblue;
+}
+.fruits *:nth-child(2n+1) { /*n은 0부터 시작*/
+	color: red;
+}
+.fruits *:nth-child(n+2) {
+	color: aqua;
+}
+*/
+
+

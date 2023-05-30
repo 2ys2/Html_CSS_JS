@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex18_js.html</title>
+<script type="text/javascript">
+</script>
+</head>
+
+
+
+
+
+
+
+<body>
+	<span id="countSpan" class="countSpan">0</span>번 클릭&nbsp;&nbsp;
+	<input type="button" value="Click"><hr>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex08_input.html</title>
+</head>
+<body>
+	<form action="" method="get">
+		id:<input type="text" name="id"><br><br>
+		내용:
+		<textarea rows="10" cols="55"> board write</textarea><br>
+		
+		취미: <select> <!-- size="6" multiple="multiple"> -->
+			<option>선택하세요.</option> <!-- 좁은곳에 많은 내용 담고싶을때 -->
+			<option>게임</option>
+			<option>낮잠자기</option>
+			<option>독서</option>
+			<option>노래</option>
+			<option>등산</option>
+		</select><br><br>
+		<textarea rows="5" cols="55">자기 소개 해주세요.</textarea><br><br>
+		radio:	<input type="radio" name="opt" checked>남
+				<input type="radio">여 <br><br>
+		checkbox:	<input type="checkbox">1
+					<input type="checkbox" checked>2
+					<input type="checkbox">3
+					<input type="checkbox">4
+		rang:	<input type="range"msx="100" min="0">
+		
+		
+				
+	</form>
+	</body>
+</html>

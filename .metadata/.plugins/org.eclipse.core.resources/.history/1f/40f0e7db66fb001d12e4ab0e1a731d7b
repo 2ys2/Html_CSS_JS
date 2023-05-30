@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex11_standard.html</title>
+<!--file로 등록했을 경우-->
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<img alt="css test" src="../images/2.jpg">
+<img alt="test" src="../images/1.jpg" style="border: 5px solid; border-color: pink;">
+<hr>
+	<p>
+		이제 <span class="accent">웹표준</span>의 역할은 아주 <span class="accent">중요</span>합니다.
+	</p>
+</body>
+</html>

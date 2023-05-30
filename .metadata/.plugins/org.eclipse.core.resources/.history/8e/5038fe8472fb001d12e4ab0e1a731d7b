@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex13_css.html</title>
+
+<div class="box" tabindex="-1">" </div>
+<iput type="text">
+</head>
+<body>
+
+</body>
+</html>

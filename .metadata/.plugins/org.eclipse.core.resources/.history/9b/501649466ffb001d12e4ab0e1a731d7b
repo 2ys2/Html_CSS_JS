@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex12_css.html</title>
+
+<style type="text/css">
+/*
+E: 가상선택자 <--- 대화형 컨텐츠
+E:: 가상요소 <--- E:: before 전에 해줘 E:: after 후에 해줘
+E:nth-child(n) <--- n:숫자 E:nth-child(2) 2번째 자손에게
+E:nth-child(2n) <--- E:nth-child(2n) 2n번째 자손에게
+E:not(s) <--- .fruits div:not(strawberry) strawbery 빼고 나머지
+*/
+
+ul li::before {
+	content: "number"; /* content 필수! 안쓰더라도 있어야함 */
+	font-weight: bold;
+	color: red;
+	margin-right: 20px;
+}
+.fruits li::after {
+	content: "number"; /* content 필수! 안쓰더라도 있어야함 */
+	font-weight: bold;
+	color: blue;
+	margin-right: 20px;
+}
+</style>
+
+
+
+</head>
+<body>
+	<ul class="fruits">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+	</ul><hr>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+	</ul><hr>
+	<img alt="Trulli" src="../images/1.jpg">
+
+	<div class="fruits">
+		<div></div>
+		<div class="strawberry"></div>
+		<div></div>
+		<div></div>
+	</div>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ul>
+
+</body>
+</html>

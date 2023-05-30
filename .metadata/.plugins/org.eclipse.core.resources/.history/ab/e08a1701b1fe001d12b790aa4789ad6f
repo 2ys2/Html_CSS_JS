@@ -1,0 +1,36 @@
+/* main.js
+표기법  - 4가지
+  camelCase  : getName, thisIsMyFunction(),...
+  PascalCase  : GetName, ThisIsMyFunction(),...
+  snakeCase  :  get_name, this_is_my_function(),....
+  kebabCase :  get-name, this-is-my-function(),....
+ - 참고 : https://forgiveall.tistory.com/563
+ 
+Zero-based Numbering : 0 기반 번호 매기기!
+*/
+// var vs let vs counst 
+
+let fruits = ['Apple', 'Banana', 'Cherry'];
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+
+console.log(new Date('2023-05-30'));
+console.log(new Date('2023-05-30').getDay()); // 화요일
+console.log(new Date('2023-06-03').getDay());
+console.log(new Date('2023-05-30').getFullYear());
+
+// String (문자 데이터):따옴표를 사용한다.
+let myName = "Doyeon";
+let email = 'kinsmile@sjc.acu.kr';
+// let hap = '안녕하세요.' + MyName + '입니다.';
+let hap = '안녕하세요. &{myName} 입니다. 반가워요';
+//let help
+console.log(myName);
+console.log(email);
+console.log(hap);
+console.log('my mail ${email} 여기로 연락요망');
+
+//Number(숫잩 데이터): 정수 및 부동소숫점 숫자
+var num;
+console.log(num);
