@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex09_jquery.html</title>
+
+<!-- 1) file 방식 링크 -->
+<script type="text/javascript" src="../js/"></script>
+<!-- 2) cdn 방식 -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<h2>jQuery Sample</h2>
+	</header>
+
+	<input id="inputdemo" value="">
+	<input type="button" value="변환1">
+	<input type="button" value="변환2">
+
+	<div class="welcome"></div>
+	<div class="welcome"></div>
+	<div id="demo">
+		<div class="inner">Create jQuery Test</div>
+	</div>
+	<hr>
+	
+	<!-- font size 15px -->
+	<div class="name">이 부분에 클릭 이벤트가 발생하면 자신 이름출력하기 </div>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.name').on('click', function(){
+				$(this).html('이영서')
+				.css({'font-size': '15px', 
+					'color': 'royalblue'}).show(3000)
+				});
+
+			//document.getElementsByTagName('h2')[0].style.color = 'red';
+			//$('h2').css({ 'color': 'pink' });
+
+			//체이닝(chain) 방식
+			//on(1, 2); on('event', function(){ })
+			/*
+			$('.welcome').html('hello world! Daebo th2')
+						.css('background-color', 'orange')
+						//.click(function(){
+						.on('click mousemove keyup', function(){
+						$(this).css('background-color', 'grey')
+			});
+			*/
+						
+			$('.welcome').html('hello world! Daebo th2')
+						.css('background-color', 'orange')
+						.on('click', function(e){
+							//$(".welcome").hide();
+							//console.log(e)
+							let clicked = e.target;
+							console.log(clicked);
+							$(this).css('background-color', 'red')
+			});
+
+			//$('h2').css('color','aqua');
+
+			//#demo .inner 글자에 언더라인
+			//$('#demo .inner').css('text-decoration','underline')
+
+			//아래쪽에 5px 두께 실선 red
+			//$('#demo .inner').css('border-bottom','5px solid red')
+
+			//기울기
+			//$('#demo .inner').css('transform','rotate(45deg)')
+			//$('#demo .inner').css('opacity','0.5') //px생략가능
+
+			//여러개 한번에 넣기
+			/*
+			$('#demo .inner').css({
+				'text-decoration': 'underline',
+				'border-bottom' : '5px solid red',
+				'transform': 'rotate(45deg)',
+				'opacity':'.3' //0.3만큼
+			});
+			 */
+
+			//$('선택자').on('이벤트종류', 할일)
+			/*
+			$('#demo').on('mouseover', function() {
+				$('.inner').css('background', 'green');
+			});
+			
+
+			$('#demo').on('mouseout', function() {
+				$('.inner').css('background', 'white').html('글자변경');
+			});
+			 */
+
+			//여러 선택자에 이벤트 추가
+			/*
+				$('#demo, h2, div').mouseover(function() {
+					$(this).css('background', 'yellow').html('deabo th2');
+				});
+			 */
+		});
+	</script>
+
+</body>
+</html>
