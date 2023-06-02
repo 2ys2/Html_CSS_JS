@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day45_css_js" path="/day45_css_js" reloadable="true" source="org.eclipse.jst.jee.server:day45_css_js"/><Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day47_jquery" path="/day47_jquery" reloadable="true" source="org.eclipse.jst.jee.server:day47_jquery"/></Host>
+      <Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day45_css_js" path="/day45_css_js" reloadable="true" source="org.eclipse.jst.jee.server:day45_css_js"/><Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\day47_jquery" path="/day47_jquery" reloadable="true" source="org.eclipse.jst.jee.server:day47_jquery"/><Context docBase="C:\daebo_th2\4_Html_CSS_JS\labs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\MiniHompage" path="/MiniHompage" reloadable="true" source="org.eclipse.jst.jee.server:MiniHompage"/></Host>
     </Engine>
   </Service>
 </Server>

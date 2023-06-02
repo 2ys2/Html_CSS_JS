@@ -51,13 +51,13 @@
 			}
 
 			function startTime( ){
-				window.setInterval("showTime()",1000);
+				window.setInterval("showTime()",1000); //setInterval 1초단위
 			}
 			
 		</script>
 	</head>
 	
-	<body onLoad="startTime( )"><center>
+	<body onLoad="startTime( )"><center> <!-- onLoad 함수안에서 함수를 부름-->
 		<div id="nowTime"></div>
 	</body>
 </html>

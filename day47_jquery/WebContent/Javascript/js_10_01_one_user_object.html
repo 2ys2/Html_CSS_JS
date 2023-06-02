@@ -55,6 +55,10 @@
 			//---------------------------------------
 			// 일회성 사용자 정의 객체를 n개 생성하고 n개의 객체를 Array객체에 저장
 			//---------------------------------------
+			//cf) int[] arr= new int[5];
+			//SungJuk[] sungjuk = new SungJuk[4];
+			//sungjuk[0] = { s_no:1, s_name:"메시", kor:100, eng:100, mat:99 };
+			
 			var sungjuks = new Array();
 			sungjuks.push( { s_no:1, s_name:"메시", kor:100, eng:100, mat:99 } );
 			sungjuks.push( { s_no:2, s_name:"호날두", kor:99, eng:88, mat:78 } );
@@ -141,7 +145,12 @@
 			document.write( "</table>" );
 			document.write( "<hr>" );
 			//---------------------------------------
-			var xxx = { v:[3,5,7], w:{no:1, name:"김도걍", jumsu:[77,88,99] } };
+		/* 	var xxx = {
+					v:[3,5,7],
+					w:{no:1, name:"김도걍", jumsu:[77,88,99]
+			}
+			}; */
+			var xxx = { v:[3,5,7], w:{no:1, name:"김도걍", jumsu:[77,99] } };
 			//---------------------------------------
 			// 김도걍 이란 문자 출력방법
 			document.write( xxx.w.name + "<br>" );

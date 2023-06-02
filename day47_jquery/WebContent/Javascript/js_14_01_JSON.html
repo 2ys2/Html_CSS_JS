@@ -10,11 +10,11 @@
 		//----------------------------------------
 		// 게시판의 데이터를 JSON 으로 표현
 		//----------------------------------------
-		var board = {
+		var board = { //JSON != Object
 			"title" : "강의 자료",
 			"description" : "협회[DoYeon]에서 진행중인 강의 자료 입니다.",
 			"total" : 4,
-			"item" : [
+			"item" : [ //"key" - JSON vs key - Object
 				{"no" : "공지", "subject" : "Javascript 강의자료", "hit" : 3, "date" : "2013.10.29"},
 				{"no" : 3, "subject" : "JQuery 강의자료", "hit" : 6, "date" : "2013.11.08"},
 				{"no" : 2, "subject" : "AJAX 강의자료", "hit" : 15, "date" : "2013.11.07"},

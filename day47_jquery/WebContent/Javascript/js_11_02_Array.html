@@ -11,15 +11,15 @@
 	<body>
 		<script>
 			// 1차원 Array객체 3개 생성하여 변수에 저장하기
-			var kors = new Array( 91,92,93 );
+			var kors = new Array( 91,92,93 ); // var kors = [ 91,92,93 ];
 			var engs = new Array( 81,82,83 );
 			var mats = new Array( 71,72,73 );
 			//1차원 Array객체 3개를 저장할 또 다른 1차원 Array객체 생성하기
-			var scores = new Array();
+			var scores = new Array(); 
 			//1차원 Array객체에  또 다른 1차원 Array객체를 저장하기
 			scores.push(kors);
 			scores.push(engs);
-			scores.push(mats);
+			scores.push(mats); // 2차원배열
 			
 			//--------------------------------
 			//위 코딩은 아래처럼도 가능
@@ -78,8 +78,8 @@
 			document.write( "국어, 영어, 수학 점수들을 내림차순으로 정렬<br><br>" );
 			for ( i=0; i<scores.length; i++ ){
 				for ( j=0; j<scores[i].length; j++ ){
-					scores[i].sort();
-					scores[i].reverse();
+					scores[i].sort(); //오름차순 정렬
+					scores[i].reverse(); //내림차순/역순
 					document.write( scores[i][j] + " " );
 				}
 				document.write( "<br>" );

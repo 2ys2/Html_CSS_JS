@@ -74,11 +74,12 @@
 			document.write("평균 : " + sungjuk2.getAvg() + "<hr>");
 
 			var sungjuk_arr = [];// var sunjuk_arr = new Array();
+			var sj = new Sungjuk[2]; //sj[0], sj[1] 개체 생성
 			//--------------------------------------
 			//Array객체에  2개의 sungjuk 객체의 메모리 위치주소값 저장
 			//--------------------------------------
-			sungjuk_arr.push( sungjuk1 );
-			sungjuk_arr.push( sungjuk2 );
+			sungjuk_arr.push( sungjuk1 ); //sj[0]<- 성적1 인스턴스 값을 넣겠다
+			sungjuk_arr.push( sungjuk2 ); //sj[1] = sungjuk2;
 			//--------------------------------------
 			//Array객체에 저장된 sungjuk 객체의 메소드 호출
 			//--------------------------------------

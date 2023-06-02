@@ -9,12 +9,12 @@
 			var lotto = new Array();
 			var suffle_cnt=105;
 			for (var i=0; i<45; i++){
-				lotto[i] = i+1;
+				lotto[i] = i+1; //0 제외
 			}
 
 			for (var j=0; j<5; j++){
 				for (var k=0; k<suffle_cnt; k++){
-					var idx1 = Math.floor(Math.random()*lotto.length);
+					var idx1 = Math.floor(Math.random()*lotto.length); //floor, random = double type -> 로또길이만큼 뒷부분절삭
 					var idx2 = Math.floor(Math.random()*lotto.length);
 					var tmp;
 					tmp = lotto[idx1];

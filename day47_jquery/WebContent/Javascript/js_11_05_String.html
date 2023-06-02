@@ -25,13 +25,13 @@
 			// 일부 구간의 문자열을 리턴 받아본다.
 			//----------------------------------------------------
 			document.write(str.substring(8)+"<hr>");
-			document.write(str.substring(5,7)+"<hr>");
+			document.write(str.substring(5,7)+"<hr>"); // (5<=, <7)
 			//----------------------------------------------------
 			// 인덱스 번호 8번에 해당하는 문자 1개만 복사해서 리턴
 			//----------------------------------------------------
 			document.write(str.charAt(8)+"<hr>");
 			document.write(str.substring(8,9)+"<hr>");
-			document.write(str.substr(8,1)+"<hr>");
+			document.write(str.substr(8,1)+"<hr>"); // 
 			//----------------------------------------------------
 			// indexOf(~) 메소드로 임의 문자의 존재 위치 인덱스
 			// 번호값 리턴하기 앞에서 부터 찾기 떄문에 2개 이상이면
@@ -40,7 +40,7 @@
 			document.write(str.indexOf("K")+"<hr>");
 			document.write(str.indexOf("k")+"<hr>");
 			document.write(str.indexOf("a")+"<hr>");
-			document.write(str.indexOf("a",3)+"<hr>");
+			document.write(str.indexOf("a",3)+"<hr>"); //3번째 있는 a
 			//----------------------------------------------------
 
 			// lastIndexOf(~) 메소드로 뒤에서 부터 찾아 a 문자의

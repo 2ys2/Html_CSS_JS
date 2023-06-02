@@ -7,7 +7,8 @@
 		<script>
 			function go( portal ){
 				if ( portal == '네이버' ){
-					location.replace("http://www.naver.com");
+					location.replace("http://www.naver.com"); //뒤로가기 비활성화
+					location.href="http://www.naver.com"; // 뒤로가기 활성화
 				}
 				if ( portal == '구글' ){
 					location.replace("http://www.google.com");
