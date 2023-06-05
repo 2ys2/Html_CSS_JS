@@ -1,7 +1,0 @@
-@charset "UTF-8";
-.tab {
-	/*color, lime, */ /*!f00;*/
-	border: 3px;
-	background: blue;
-	
-}

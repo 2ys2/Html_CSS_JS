@@ -1,6 +1,0 @@
-@charset "UTF-8";
-.tab {
-	border: 3px solid black ;
-	background: #D9E5FF;
-	
-}

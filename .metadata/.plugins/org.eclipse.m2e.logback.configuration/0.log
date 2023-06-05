@@ -11,3 +11,5 @@
 2023-05-31 16:54:29,299 [Worker-116: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\KOSA\git\Team2_Project\.git]
 2023-06-02 08:59:51,584 [ModalContext] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\KOSA\git\TestTeam2\.git]
 2023-06-02 08:59:59,339 [Worker-358: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for [RepositoryHandle:Repository[C:\Users\KOSA\git\TestTeam2\.git]]
+2023-06-05 12:17:44,112 [Worker-804: Decoration Calculation] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\KOSA\git\Team2_Project\.git]
+2023-06-05 12:17:58,386 [Worker-808: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for [RepositoryHandle:Repository[C:\Users\KOSA\git\Team2_Project\.git]]
