@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>address.html</title>
+<script type="text/javascript"
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=591dab135e7cb3ac829f52999aac149e"></script>
+</head>
+<body>
+	<!-- 화면 꾸미기
+지도 : 우리집 방문 (ajax 이용) -->
+	<div>
+		<h1>오이지</h1>
+		<h3>서울 종로구 대학로9길 33</h3>
+		<span> 매일 11:30 ~ 22:00 <br /> 매일 휴게시간 15:00 ~ 17:00 <br />
+			www.instagram.com/oiji_official <br /> 대표번호 : 0507-1355-9977 <br />
+		</span> <img alt="" src="IMG_7166.jpeg" style="width: 200px; height: 300px">
+		&nbsp; <img alt="" src="IMG_7243.jpeg"
+			style="width: 200px; height: 300px"> <br />
+		<h2>카카오지도</h2>
+		<div id="map" style="width: 500px; height: 350px;"></div>
+		<h2>구글지도</h2>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.8650808391003!2d126.9952702540702!3d37.58179460014845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca32bd15c8709%3A0x4909e53208eec627!2z7Jik7J207KeAIOuMgO2VmeuhnA!5e0!3m2!1sko!2skr!4v1686116084987!5m2!1sko!2skr"
+			width="600" height="450" style="border: 0;" allowfullscreen=""
+			loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<br />
+		<h2>카카오맵</h2>
+		<!-- * 카카오맵 - 지도퍼가기 -->
+		<!-- 1. 지도 노드 -->
+		<div id="daumRoughmapContainer1686116305584"
+			class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+		<!-- 2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.-->
+		<script charset="UTF-8" class="daum_roughmap_loader_script"
+			src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+		<!-- 3. 실행 스크립트 -->
+		<script charset="UTF-8">
+			new daum.roughmap.Lander({
+				"timestamp" : "1686116305584",
+				"key" : "2f2jb",
+				"mapWidth" : "640",
+				"mapHeight" : "360"
+			}).render();
+		</script>
+
+	</div>
+
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center : new kakao.maps.LatLng(37.5818294, 127.000160),
+			level : 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+
+</body>
+</html>
