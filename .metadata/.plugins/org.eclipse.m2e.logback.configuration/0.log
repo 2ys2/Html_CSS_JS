@@ -13,3 +13,4 @@
 2023-06-02 08:59:59,339 [Worker-358: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for [RepositoryHandle:Repository[C:\Users\KOSA\git\TestTeam2\.git]]
 2023-06-05 12:17:44,112 [Worker-804: Decoration Calculation] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\KOSA\git\Team2_Project\.git]
 2023-06-05 12:17:58,386 [Worker-808: Remove Repositories] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for [RepositoryHandle:Repository[C:\Users\KOSA\git\Team2_Project\.git]]
+2023-06-07 09:00:35,833 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

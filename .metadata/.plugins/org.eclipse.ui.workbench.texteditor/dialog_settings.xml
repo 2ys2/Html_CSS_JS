@@ -11,8 +11,10 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="block"/>
+		<item key="selection" value="PROMOTION"/>
 		<list key="findhistory">
+			<item value="promo"/>
+			<item value="inner"/>
 			<item value="otterinfo"/>
 			<item value="일회성"/>
 			<item value="logo"/>

@@ -1,0 +1,146 @@
+/* day0609.css */
+
+.layout {
+	background-color: royalblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.layout .header {
+	width: 800px;
+	height: 300px;
+}
+
+.swiper-slide{
+	width: 200px;
+	height: 200px;
+}
+
+.swiper-slide img{
+	width: 200px;
+	height: 200px;
+}
+
+.bottom {
+	width: 800px;
+}
+/* leftside */
+.leftside {
+	float: left;
+	width: 200px;
+}
+
+.left-side {
+	width: 200px;
+	height: 199px;
+	border: 1px solid black;
+}
+
+.left-side img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/* rightside */
+.rightside {
+	width: 600px;
+	float: right;
+}
+
+.right-side {
+	height: 600px;
+	width: 600px;
+}
+
+.right-side img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/* .layout .header {
+	width: 1000px;
+	height: 693px;
+	background-color: #f6f5ef;
+	position: relative;
+	overflow: hidden;
+	transition: height .4s;
+}
+
+.layout .header.hide {
+	height: 0;
+}
+
+.header .swiper mySwiper {
+	819px 슬라이드 4개와 그 사이 여백 10px씩 = 3306px
+	width: calc(819px * 4 + 30px);
+	height: 553px;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: calc(( 819px * 4 + 30px)/-2);
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	opacity: .5;
+	transition: opacity 1s;
+}
+
+.swiper-slide-active {
+	opacity: 1;
+}*/
+
+/*
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+} 
+
+ .swiper-wrapper{
+            width: 200px;
+           position: relative;
+           left: 50%;
+           margin-left: -100px;
+           top: 400px;
+           border: 5px blue solid;
+           z-index: 100;
+        }
+        .slide_wrap{
+            background: red;
+            width: 1000px;
+            margin: 0;
+            padding: 0;
+        }
+        .swiper-slide{
+            background: green;
+            width: 200px;
+            list-style: none;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+        }
+        
+        .slide_wrap{
+            width: 1200px;
+        }
+        */
